@@ -8,7 +8,7 @@ function append(num) {
 function setOp(operation) {
     a = document.getElementById("display").value;
     op = operation;
-    document.getElementById("display").value = op;
+    document.getElementById("display").value = "";
 }
 
 function calculate() {
